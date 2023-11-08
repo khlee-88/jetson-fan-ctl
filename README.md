@@ -1,3 +1,7 @@
+# Update
+Jetson Xavier AGX pwn fan path was changed
+see fanctl.py
+
 # jetson-fan-ctl
 Automagic fan control for the Nvidia Jetson Nano
 
