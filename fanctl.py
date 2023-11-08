@@ -37,7 +37,7 @@ def fan_curve(temp):
 	return int(min(max(0,spd),255))
 
 def set_speed(spd):
-	with open("/sys/devices/pwm-fan/target_pwm","w") as file:
+	with open("/sys/devices/platform/pwm-fan/hwmon/hwmon3/pwm1","w") as file:
 		file.write(f"{spd}")
 
 print("Setup complete.\nRunning normally.")
